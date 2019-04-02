@@ -120,6 +120,178 @@
     { 
         font-size: 2.1vw
     }
+    div.barre-html
+ { 
+     width: 30vw; 
+    
+ }
+ div.barre-html:before 
+ { 
+    
+    width: 26vw;
+   
+ }
+ div.barre-css
+ { 
+     width: 30vw; 
+
+ }
+ div.barre-css:before 
+ { 
+    width: 19vw;
+    
+ }
+
+ div.barre-JS
+ { 
+     width: 30vw; 
+     
+ }
+ div.barre-JS:before 
+ { 
+    width:  13.5vw;
+
+ }
+ div.barre-ajax
+ { 
+     width: 30vw; 
+     
+ }
+ div.barre-ajax:before 
+ { 
+   
+    width:  13.5vw;
+    
+ }
+
+ div.barre-angular
+ { 
+     width: 30vw; 
+     
+ }
+ div.barre-angular:before 
+ { 
+    
+    width:  13.5vw;
+    
+ }
+
+ div.barre-php
+ { 
+     width: 30vw; 
+ }
+     
+ div.barre-php:before 
+ { 
+    
+    width:  13.5vw;
+    
+ }
+
+ div.barre-sql
+ { 
+     width: 30vw; 
+     
+ }
+ div.barre-sql:before 
+ { 
+    width:  13.5vw;
+
+ }
+
+ article.cms p 
+ { 
+     font-size: 1.2vw
+ }
+ 
+ div.barre-drupal
+ { 
+     width: 30vw; 
+     
+ }
+ div.barre-drupal:before 
+ { 
+    
+    width:  26vw;
+    
+ }
+
+
+ div.barre-wordpress
+ { 
+     width: 30vw; 
+     
+ }
+ div.barre-wordpress:before 
+ { 
+    width:  13.5vw;
+    
+ }
+ article.design p 
+ { 
+     font-size: 1.2vw
+ }
+
+
+ div.barre-ps
+ { 
+     width: 30vw; 
+     
+ }
+ div.barre-ps:before 
+ { 
+    width:  13.5vw;
+    
+ }
+ div.barre-mockups
+ { 
+     width: 30vw; 
+    
+ }
+ div.barre-mockups:before 
+ { 
+
+    width:  26vw;
+    
+ }
+ article.langues p 
+ { 
+     font-size: 1.2vw
+ }
+
+
+ div.barre-anglais
+ { 
+     width: 30vw; 
+ }
+ div.barre-anglais:before 
+ { 
+    
+    width:  28vw;
+    
+ }
+ div.barre-espagnol
+ { 
+     width: 30vw; 
+     
+ }
+ div.barre-espagnol:before 
+ { 
+    
+    width:  23vw;
+   
+ }
+ div.barre-italien
+ { 
+     width: 30vw; 
+    
+ }
+ div.barre-italien:before 
+ { 
+    
+    width:  19vw;
+   
+ }
   article.cms 
   { 
     padding-left: 60px
@@ -260,37 +432,266 @@ section.infos article.formation :first-child
     }
     article.dev 
     { 
-        padding: 0 5px 0 60px
+        padding-left: 60px; 
+        flex-wrap: wrap
+    }
+    
+    article.dev div.dev-gauche
+    { 
+        margin-right: 2px
     }
     article.dev p 
     {
         font-size: 1.8vw
     }
+    div.barre-html
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+ }
+ div.barre-html:before 
+ { 
+    content: '';
+    display: block;
+    width: 22vw;
+    height: 20px;
+    background:orangered;
+ }
+ div.barre-css
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+ }
+ div.barre-css:before 
+ { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 12vw;
+    height: 20px;
+    background:orangered;
+ }
+
+ div.barre-JS
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+ }
+ div.barre-JS:before 
+ { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:  7.5vw;
+    height: 20px;
+    background:orangered;
+ }
+ div.barre-ajax
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+ }
+ div.barre-ajax:before 
+ { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:  7.5vw;
+    height: 20px;
+    background:orangered;
+ }
+
+ div.barre-angular
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+ }
+ div.barre-angular:before 
+ { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:  7.5vw;
+    height: 20px;
+    background:orangered;
+ }
+
+ div.barre-php
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+     display: flex
+ }
+ div.barre-php:before 
+ { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:  7.5vw;
+    height: 20px;
+    background:orangered;
+    display: flex
+ }
+
+ div.barre-sql
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+ }
+ div.barre-sql:before 
+ { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:  7.5vw;
+    height: 20px;
+    background:orangered;
+ }
   article.cms 
   { 
-    padding-left: 60px
+    padding-left: 60px; 
+    margin-right: 5px; 
+    flex-wrap: wrap
   }
   article.cms p 
     {
-        font-size: 1.8vw
+        font-size: 1.8vw;
+       
+    }
+    div.barre-drupal
+    { 
+        width: 24vw; 
+        height: 20px;
+        background-color: lightgray; 
+       
+    }
+    div.barre-drupal:before 
+    { 
+       content: '';
+       display: block;
+       position: absolute;
+       width:  20vw;
+       height: 20px;
+       background:orangered;
+    }
+   
+   
+    div.barre-wordpress
+    { 
+        width: 24vw; 
+        height: 20px;
+        background-color: lightgray; 
+    }
+    div.barre-wordpress:before 
+    { 
+       content: '';
+       display: block;
+       position: absolute;
+       width:  7.5vw;
+       height: 20px;
+       background:orangered;
     }
   article.design 
   {
-    padding-left: 60px
+    padding-left: 60px;
+    margin-right: 5px;
+    flex-wrap: wrap
   }
   article.design p 
     {
         font-size: 1.8vw
     }
+    div.barre-ps
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+ }
+ div.barre-ps:before 
+ { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:  13vw;
+    height: 20px;
+    background:orangered;
+ }
+ div.barre-mockups
+ { 
+     width: 24vw; 
+     height: 20px;
+     background-color: lightgray; 
+ }
+ div.barre-mockups:before 
+ { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:  20vw;
+    height: 20px;
+    background:orangered;
+ }
   article.langues 
   {
-    padding-left: 60px
+    padding-left: 60px;
+    margin-right: 5px
   }
   article.langues p 
     {
         font-size: 1.8vw
     }
-
+    div.barre-anglais
+    { 
+        width: 24vw; 
+        height: 20px;
+        background-color: lightgray; 
+    }
+    div.barre-anglais:before 
+    { 
+       content: '';
+       display: block;
+       position: absolute;
+       width:  22vw;
+       height: 20px;
+       background:orangered;
+    }
+    div.barre-espagnol
+    { 
+        width: 24vw; 
+        height: 20px;
+        background-color: lightgray; 
+    }
+    div.barre-espagnol:before 
+    { 
+       content: '';
+       display: block;
+       position: absolute;
+       width:  17vw;
+       height: 20px;
+       background:orangered;
+    }
+    div.barre-italien
+    { 
+        width: 24vw; 
+        height: 20px;
+        background-color: lightgray; 
+    }
+    div.barre-italien:before 
+    { 
+       content: '';
+       display: block;
+       position: absolute;
+       width:  13vw;
+       height: 20px;
+       background:orangered;
+    }
 }
 
 @media only screen and (min-width : 769px) and (max-width : 950px){
@@ -306,7 +707,7 @@ section.infos article.formation :first-child
     main section.titre 
     { 
         min-width: 35%; 
-        height: 195vh
+        height: 230vh
     }
    
    
@@ -412,8 +813,10 @@ section.infos article.formation :first-child
     }
     article.dev 
     { 
-        padding: 0 5px 0 100px
+        padding: 0 5px 0 100px; 
+        flex-wrap: nowrap
     }
+
     article.dev p 
     {
         font-size: 1.8vw
@@ -442,6 +845,8 @@ section.infos article.formation :first-child
     {
         font-size: 1.8vw
     }
+
+    
 }
 
 @media only screen and (min-width : 951px) and  (max-width :1350px) {
@@ -451,7 +856,7 @@ section.infos article.formation :first-child
     }
     main section.titre 
     { 
-        height: 180vh
+        height: 165vh
     }
     main section.titre article.contact 
     { 
@@ -491,102 +896,125 @@ section.infos article.formation :first-child
     }
     h6 
     { 
-        margin-left: 100px
+        margin-left: 100px; 
+        margin-top: 15px
     }
     
     article.dev 
     { 
-        padding: 0 5px 0 100px
+        padding-left: 100px; 
+        flex-wrap: nowrap;
+  
     }
     
   article.cms 
   { 
-    padding-left: 100px
+    padding-left: 100px;
+    flex-wrap: nowrap;
+ 
   }
   article.design 
   {
-    padding-left: 100px
+    padding-left: 100px;
+    flex-wrap: nowrap;
+ 
   }
   article.langues 
   {
-    padding-left: 100px
+    padding-left: 100px;
+    flex-wrap: nowrap;
+
   }
   div.barre-html
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
     
  }
  div.barre-html:before 
  { 
     
-    width: 26vh;
+    width: 21vw;
+    height:  30px;
    
  }
  div.barre-css
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
 
  }
  div.barre-css:before 
  { 
-    width: 19vh;
+    width: 14vw;
+    height:  30px;
     
  }
 
  div.barre-JS
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
      
  }
  div.barre-JS:before 
  { 
-    width:  13.5vh;
+    width:  8.5vw;
+    height:  30px;
 
  }
  div.barre-ajax
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
      
  }
  div.barre-ajax:before 
  { 
    
-    width:  13.5vh;
+    width:  8.5vw;
+    height:  30px;
     
  }
 
  div.barre-angular
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
      
  }
  div.barre-angular:before 
  { 
     
-    width:  13.5vh;
+    width:  8.5vw;
+    height:  30px;
     
  }
 
  div.barre-php
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
  }
      
  div.barre-php:before 
  { 
     
-    width:  13.5vh;
+    width:  8.5vw;
+    height:  30px;
     
  }
 
  div.barre-sql
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
      
  }
  div.barre-sql:before 
  { 
-    width:  13.5vh;
+    width:  8.5vw;
+    height:  30px;
 
  }
 
@@ -597,25 +1025,29 @@ section.infos article.formation :first-child
  
  div.barre-drupal
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
      
  }
  div.barre-drupal:before 
  { 
     
-    width:  26vh;
+    width:  21vw;
+    height:  30px;
     
  }
 
 
  div.barre-wordpress
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
      
  }
  div.barre-wordpress:before 
  { 
-    width:  13.5vh;
+    width:  8.5vw;
+    height:  30px;
     
  }
  article.design p 
@@ -626,23 +1058,27 @@ section.infos article.formation :first-child
 
  div.barre-ps
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
      
  }
  div.barre-ps:before 
  { 
-    width:  13.5vh;
+    width:  8.5vw;
+    height:  30px;
     
  }
  div.barre-mockups
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
     
  }
  div.barre-mockups:before 
  { 
 
-    width:  26vh;
+    width:  21vw;
+    height:  30px;
     
  }
  article.langues p 
@@ -653,34 +1089,40 @@ section.infos article.formation :first-child
 
  div.barre-anglais
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
  }
  div.barre-anglais:before 
  { 
     
-    width:  28vh;
+    width:  23vw;
+    height:  30px;
     
  }
  div.barre-espagnol
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
      
  }
  div.barre-espagnol:before 
  { 
     
-    width:  23vh;
+    width:  18vw;
+    height:  30px;
    
  }
  div.barre-italien
  { 
-     width: 30vh; 
+     width: 25vw; 
+     height:  30px;
     
  }
  div.barre-italien:before 
  { 
     
-    width:  19vh;
+    width:  14vw;
+    height:  30px;
    
  }
 
@@ -695,7 +1137,7 @@ section.infos article.formation :first-child
     
     main section.titre 
     { 
-        height: 215vh
+        height: 190vh
     }
     main section.titre article.contact 
     { 
@@ -744,109 +1186,113 @@ section.infos article.formation :first-child
     
     article.dev 
     { 
-        padding: 0 5px 0 150px
+        padding: 0 5px 0 150px; 
+        flex-wrap: nowrap
     }
     
   article.cms 
   { 
-    padding-left: 150px
+    padding-left: 150px;
+    flex-wrap: nowrap
   }
   article.design 
   {
-    padding-left: 150px
+    padding-left: 150px;
+    flex-wrap: nowrap
   }
   article.langues 
   {
-    padding-left: 150px
+    padding-left: 150px;
+    flex-wrap: nowrap
   }
 div.barre-html
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
  }
  div.barre-html:before 
  { 
     
-    width: 46vh;
+    width: 20vw;
     height: 50px
    
  }
  div.barre-css
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
 
  }
  div.barre-css:before 
  { 
-    width: 39vh;
+    width: 14vw;
     height: 50px
     
  }
 
  div.barre-JS
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
      
  }
  div.barre-JS:before 
  { 
-    width:  33.5vh;
+    width:  8.5vw;
     height: 50px
 
  }
  div.barre-ajax
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
      
  }
  div.barre-ajax:before 
  { 
    
-    width:  33.5vh;
+    width:  8.5vw;
     height: 50px
     
  }
 
  div.barre-angular
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
      
  }
  div.barre-angular:before 
  { 
     
-    width:  33.5vh;
+    width:  8.5vw;
     height: 50px
     
  }
 
  div.barre-php
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
  }
      
  div.barre-php:before 
  { 
     
-    width:  33.5vh;
+    width:  8.5vw;
     height: 50px
     
  }
 
  div.barre-sql
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
      
  }
  div.barre-sql:before 
  { 
-    width:  33.5vh;
+    width:  8.5vw;
     height: 50px
 
  }
@@ -859,14 +1305,14 @@ div.barre-html
  
  div.barre-drupal
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
      
  }
  div.barre-drupal:before 
  { 
     
-    width:  46vh;
+    width:  21vw;
     height: 50px
     
  }
@@ -874,13 +1320,13 @@ div.barre-html
 
  div.barre-wordpress
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
      
  }
  div.barre-wordpress:before 
  { 
-    width:  33.5vh;
+    width:  8.5vw;
     height: 50px
     
  }
@@ -892,26 +1338,26 @@ div.barre-html
 
  div.barre-ps
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
      
  }
  div.barre-ps:before 
  { 
-    width:  33.5vh;
+    width:  8.5vw;
     height: 50px
     
  }
  div.barre-mockups
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
     
  }
  div.barre-mockups:before 
  { 
 
-    width:  46vh;
+    width:  21vw;
     height: 50px
     
  }
@@ -923,39 +1369,39 @@ div.barre-html
 
  div.barre-anglais
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
  }
  div.barre-anglais:before 
  { 
     
-    width:  48vh;
+    width:  21vw;
     height: 50px
     
  }
  div.barre-espagnol
  { 
-     width: 50vh; 
+     width:25vw; 
      height: 50px
      
  }
  div.barre-espagnol:before 
  { 
     
-    width:  43vh;
+    width:  12vw;
     height: 50px
    
  }
  div.barre-italien
  { 
-     width: 50vh; 
+     width: 25vw; 
      height: 50px
     
  }
  div.barre-italien:before 
  { 
     
-    width:  39vh;
+    width:  14vw;
     height: 50px
    
  }
@@ -971,7 +1417,7 @@ div.barre-html
     
     main section.titre 
     { 
-        height: 230vh
+        height: 230vH
     }
     main section.titre article.contact 
     { 
@@ -1082,204 +1528,204 @@ div.barre-html
   {
     padding-left: 200px;
   }
-div.barre-html
- { 
-     width: 50vh; 
-     height: 50px
- }
- div.barre-html:before 
- { 
-    
-    width: 26vh;
-    height: 50px
-   
- }
- div.barre-css
- { 
-     width: 50vh; 
-     height: 50px
-
- }
- div.barre-css:before 
- { 
-    width: 39vh;
-    height: 50px
-    
- }
-
- div.barre-JS
- { 
-     width: 50vh; 
-     height: 50px
+  div.barre-html
+  { 
+      width: 25vw; 
+      height: 50px
+  }
+  div.barre-html:before 
+  { 
      
- }
- div.barre-JS:before 
- { 
-    width:  33.5vh;
-    height: 50px
-
- }
- div.barre-ajax
- { 
-     width: 50vh; 
+     width: 20vw;
      height: 50px
-     
- }
- div.barre-ajax:before 
- { 
-   
-    width:  33.5vh;
-    height: 50px
     
- }
-
- div.barre-angular
- { 
-     width: 50vh; 
-     height: 50px
-     
- }
- div.barre-angular:before 
- { 
-    
-    width:  33.5vh;
-    height: 50px
-    
- }
-
- div.barre-php
- { 
-     width: 50vh; 
-     height: 50px
- }
-     
- div.barre-php:before 
- { 
-    
-    width:  33.5vh;
-    height: 50px
-    
- }
-
- div.barre-sql
- { 
-     width: 50vh; 
-     height: 50px
-     
- }
- div.barre-sql:before 
- { 
-    width:  33.5vh;
-    height: 50px
-
- }
-
- article.cms p 
- { 
-     font-size: 1.2vw;
-    
- }
+  }
+  div.barre-css
+  { 
+      width: 25vw; 
+      height: 50px
  
- div.barre-drupal
- { 
-     width: 50vh; 
+  }
+  div.barre-css:before 
+  { 
+     width: 14vw;
      height: 50px
      
- }
- div.barre-drupal:before 
- { 
+  }
+ 
+  div.barre-JS
+  { 
+      width: 25vw; 
+      height: 50px
+      
+  }
+  div.barre-JS:before 
+  { 
+     width:  8.5vw;
+     height: 50px
+ 
+  }
+  div.barre-ajax
+  { 
+      width: 25vw; 
+      height: 50px
+      
+  }
+  div.barre-ajax:before 
+  { 
     
-    width:  46vh;
-    height: 50px
-    
- }
-
-
- div.barre-wordpress
- { 
-     width: 50vh; 
+     width:  8.5vw;
      height: 50px
      
- }
- div.barre-wordpress:before 
- { 
-    width:  33.5vh;
-    height: 50px
-    
- }
- article.design p 
- { 
-     font-size: 1.2vw
- }
-
-
- div.barre-ps
- { 
-     width: 50vh; 
+  }
+ 
+  div.barre-angular
+  { 
+      width: 25vw; 
+      height: 50px
+      
+  }
+  div.barre-angular:before 
+  { 
+     
+     width:  8.5vw;
      height: 50px
      
- }
- div.barre-ps:before 
- { 
-    width:  33.5vh;
-    height: 50px
-    
- }
- div.barre-mockups
- { 
-     width: 50vh; 
-     height: 50px
-    
- }
- div.barre-mockups:before 
- { 
-
-    width:  46vh;
-    height: 50px
-    
- }
- article.langues p 
- { 
-     font-size: 1.2vw
- }
-
-
- div.barre-anglais
- { 
-     width: 50vh; 
-     height: 50px
- }
- div.barre-anglais:before 
- { 
-    
-    width:  48vh;
-    height: 50px
-    
- }
- div.barre-espagnol
- { 
-     width: 50vh; 
+  }
+ 
+  div.barre-php
+  { 
+      width: 25vw; 
+      height: 50px
+  }
+      
+  div.barre-php:before 
+  { 
+     
+     width:  8.5vw;
      height: 50px
      
- }
- div.barre-espagnol:before 
- { 
-    
-    width:  43vh;
-    height: 50px
-   
- }
- div.barre-italien
- { 
-     width: 50vh; 
+  }
+ 
+  div.barre-sql
+  { 
+      width: 25vw; 
+      height: 50px
+      
+  }
+  div.barre-sql:before 
+  { 
+     width:  8.5vw;
+     height: 50px
+ 
+  }
+ 
+  article.cms p 
+  { 
+      font-size: 1.2vw;
+     
+  }
+  
+  div.barre-drupal
+  { 
+      width: 25vw; 
+      height: 50px
+      
+  }
+  div.barre-drupal:before 
+  { 
+     
+     width:  21vw;
+     height: 50px
+     
+  }
+ 
+ 
+  div.barre-wordpress
+  { 
+      width: 25vw; 
+      height: 50px
+      
+  }
+  div.barre-wordpress:before 
+  { 
+     width:  8.5vw;
+     height: 50px
+     
+  }
+  article.design p 
+  { 
+      font-size: 1.2vw
+  }
+ 
+ 
+  div.barre-ps
+  { 
+      width: 25vw; 
+      height: 50px
+      
+  }
+  div.barre-ps:before 
+  { 
+     width:  8.5vw;
+     height: 50px
+     
+  }
+  div.barre-mockups
+  { 
+      width: 25vw; 
+      height: 50px
+     
+  }
+  div.barre-mockups:before 
+  { 
+ 
+     width:  21vw;
+     height: 50px
+     
+  }
+  article.langues p 
+  { 
+      font-size: 1.2vw
+  }
+ 
+ 
+  div.barre-anglais
+  { 
+      width: 25vw; 
+      height: 50px
+  }
+  div.barre-anglais:before 
+  { 
+     
+     width:  21vw;
+     height: 50px
+     
+  }
+  div.barre-espagnol
+  { 
+      width:25vw; 
+      height: 50px
+      
+  }
+  div.barre-espagnol:before 
+  { 
+     
+     width:  12vw;
      height: 50px
     
- }
- div.barre-italien:before 
- { 
+  }
+  div.barre-italien
+  { 
+      width: 25vw; 
+      height: 50px
+     
+  }
+  div.barre-italien:before 
+  { 
+     
+     width:  14vw;
+     height: 50px
     
-    width:  39vh;
-    height: 50px
-   
- }
+  }
 }
