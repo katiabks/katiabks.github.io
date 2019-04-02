@@ -4,34 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif
 }
-@media screen and (max-width:325px)
-{
-    main 
-    { 
-        max-width: 320px
-    }
-    main section.titre 
-    { 
-        min-width: 35%
-    }
-    main section.infos 
-    {
-        max-width: 60%
-    }
-    section.infos article.formation 
-    { 
-    width: 100%;
-     display: flex; 
-     flex-direction: column; 
-     flex-wrap: nowrap;
-     padding-left: 50px
-    }
-  
-}
-body 
-{ 
-    overflow-x: hidden
-}
 
 header.title
 { 
@@ -50,7 +22,7 @@ header.title h1
     color: white;
     margin: auto; 
     text-align: center;
-    font-size: 5vh
+    font-size: 3vw
 }
 main 
 { 
@@ -65,7 +37,7 @@ main section.titre
     flex-direction: column; 
     background-color: orangered;  
     color: white; 
-    height: 190vh; 
+    height: 190vw; 
     align-items: center; 
     display: flex; 
     flex-wrap: nowrap;
@@ -76,8 +48,8 @@ main section.titre h2
 {
     text-align: center; 
     font-weight: bold; 
-    font-size: 12vh; 
-    border: solid white 2vh; 
+    font-size: 12vw; 
+    border: solid white 1.5vw; 
     padding: 25px; 
    
  }
@@ -86,18 +58,17 @@ main section.titre h2
      color: white; 
      margin: 10px 0 0px 0px; 
      text-align: center; 
-     font-size: 3vh; 
+     font-size: 2vw; 
  }
  main section.titre article.contact 
  {   
      align-items: center; 
-     height: 123.5vh;
-    padding: 0 55px;
+     height: 100vw;
      margin-top: 60px;
      display: flex; 
      flex-direction: column; 
      flex-wrap: nowrap;
-    justify-content: space-between; 
+    justify-content: flex-start; 
     width: 100%
  }
 
@@ -105,17 +76,22 @@ main section.titre h2
  { 
      color: white; 
      text-align: center;   
-     font-size: 2vh 
+     font-size: 1.3vw; 
+     margin-bottom: 5px
  }
 
- main section.titre article.contact p 
+ main section.titre article.contact div p 
  { 
      color: black; 
      text-align: center; 
-     font-size: 1.8vh; 
-     width: 100%
-
+     font-size: 1.2vw; 
+     width: 100%;      
      
+ }
+ 
+ main section.titre article.contact div
+ {
+     margin-bottom: 30px
  }
 
  section.infos 
@@ -136,22 +112,25 @@ main section.titre h2
      margin-top: 20px; 
  }
  
+ section.infos header figure 
+ { 
+     text-align: center
+ }
  section.infos header figure i
  { 
      color: white;
      background-color: orangered;  
-     font-size: 4vh; 
+     font-size: 3vw; 
      border-radius: 50px; 
-     margin: 0 10px 0 0;
-     padding: 15px
+     padding: 15px; 
  }
  section.infos header figure i.far.fa-lightbulb 
  { 
-     padding : 15.5px 20px
+     padding : 14px 20px
  }
  section.infos header h5 
  { 
-     font-size: 3vh
+     font-size: 1.5vw
  }
  section.infos article.formation
  {
@@ -159,30 +138,30 @@ main section.titre h2
      display: flex; 
      flex-direction: column; 
      flex-wrap: nowrap;
-     padding-left: 72px
+    
  }
  
  section.infos article.formation :nth-child(even)
  { 
      font-weight: bold; 
-     font-size: 2vh
+     font-size: 1.2vw
  }
  section.infos article.formation :nth-child(2) 
  { 
      color: orangered; 
      font-weight: 300;
-     font-size: 2vh
+     font-size: 1.2vw
  }
  section.infos article.formation :nth-child(odd) 
 { 
     color: orangered;
-    font-size: 2vh
+    font-size: 1.2vw
 }
 section.infos article.formation :first-child
  { 
     font-weight: bold; 
     color: black;
-    font-size: 2vh
+    font-size: 1.3vw
  }
  article.I2H 
  { 
@@ -191,31 +170,35 @@ section.infos article.formation :first-child
      flex-wrap: nowrap;
      flex-direction: row;
      align-items: center; 
-     margin: 5px 0 20px 0
+     margin: 5px 0px
  }
- article.I2H div.date
+ div.date
  { 
 
-     font-size: 2.5vh; 
+     font-size: 1.7vw; 
      font-weight: bold; 
-     padding: 9px
     
  }
-
- article.I2H div.texte 
+div.date p 
  { 
-     margin-left: 10px; 
-     font-size: 2vh
+     width: 100%; 
+     text-align: center
  }
- article.I2H div.texte :first-child 
+
+ div.texte 
+ { 
+    
+     font-size: 1.2vw
+ }
+ div.texte :first-child 
  { 
      font-weight: bold; 
-     font-size: 2vh
+     font-size: 1.3vw
  }
- article.I2H div.texte :nth-child(2)
+ div.texte :nth-child(2)
  { 
      color: orangered; 
-     font-size: 2vh
+     font-size: 1.2vw
  }
  article.alm
  { 
@@ -223,105 +206,46 @@ section.infos article.formation :first-child
      flex-wrap: nowrap;
      flex-direction: row;
      align-items: center; 
-     margin: 5px 0 20px 0; 
+     margin: 5px 0;
      width: 100%
  }
- article.alm div.date
- { 
 
-    font-size: 2.5vh; 
-    font-weight: bold; 
-    padding: 9px
-   
- }
- article.alm div.texte 
- { 
-     margin-left: 10px; 
-     font-size: 2vh
- }
- article.alm div.texte :first-child 
- { 
-     font-weight: bold
- }
- article.alm div.texte :nth-child(2)
- { 
-     color: orangered
- }
  article.titra
  { 
      display: flex; 
      flex-wrap: nowrap;
      flex-direction: row;
      align-items: center; 
-     margin: 5px 0 20px 0; 
-     width: 100%; 
+     width: 100%;
+     margin: 5px 0 
  }
- article.titra div.date
- { 
 
-    font-size: 2.5vh; 
-    font-weight: bold; 
-    padding: 9px
-   
- }
- article.titra div.texte 
- { 
-     margin-left: 10px; 
-     font-size: 2vh
- }
- article.titra div.texte :first-child 
- { 
-     font-weight: bold
- }
- article.titra div.texte :nth-child(2)
- { 
-     color: orangered
- }
+
  article.unjourjeserai
  { 
      display: flex; 
      flex-wrap: nowrap;
      flex-direction: row;
      align-items: center; 
-     margin: 5px 0 20px 0; 
      width: 100%; 
+     margin: 5px 0
  
     }
- article.unjourjeserai div.date
- { 
-
-    font-size: 2.5vh; 
-    font-weight: bold; 
-    padding: 9px
-   
- }
- article.unjourjeserai div.texte 
- { 
-     margin-left: 10px;
-     font-size: 2vh
- }
- article.unjourjeserai div.texte :first-child 
- { 
-     font-weight: bold
- }
- article.unjourjeserai div.texte :nth-child(2)
- { 
-     color: orangered
- }
+ 
+ 
  h6
  { 
-     font-size: 2.5vh; 
-     margin: 15px 0 10px 74px
+     font-size: 1.3vw; 
+     margin-bottom: 2px
  }
  article.dev 
  { 
      display: flex; 
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
      flex-direction: row; 
-     margin-left: 74px; 
      justify-content: space-between; 
      width: 100%; 
-     padding-right: 2px
+     padding: 0 5px 0 60px
  }
  article.dev div.dev-gauche
   { 
@@ -335,7 +259,7 @@ section.infos article.formation :first-child
   }
  article.dev p 
  { 
-     font-size: 2vh
+     font-size: 1.2vw
  }
  div.dev-gauche 
  { 
@@ -344,7 +268,7 @@ section.infos article.formation :first-child
 
  div.barre-html
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -352,13 +276,13 @@ section.infos article.formation :first-child
  { 
     content: '';
     display: block;
-    width: 220px;
+    width: 18vh;
     height: 20px;
     background:orangered;
  }
  div.barre-css
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -367,14 +291,14 @@ section.infos article.formation :first-child
     content: '';
     display: block;
     position: absolute;
-    width: 112px;
+    width: 11vh;
     height: 20px;
     background:orangered;
  }
 
  div.barre-JS
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -383,13 +307,13 @@ section.infos article.formation :first-child
     content: '';
     display: block;
     position: absolute;
-    width:  58px;
+    width:  5.5vh;
     height: 20px;
     background:orangered;
  }
  div.barre-ajax
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -398,14 +322,14 @@ section.infos article.formation :first-child
     content: '';
     display: block;
     position: absolute;
-    width:  58px;
+    width:  5.5vh;
     height: 20px;
     background:orangered;
  }
 
  div.barre-angular
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -414,30 +338,32 @@ section.infos article.formation :first-child
     content: '';
     display: block;
     position: absolute;
-    width:  58px;
+    width:  5.5vh;
     height: 20px;
     background:orangered;
  }
 
  div.barre-php
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
+     display: flex
  }
  div.barre-php:before 
  { 
     content: '';
     display: block;
     position: absolute;
-    width:  58px;
+    width:  5.5vh;
     height: 20px;
     background:orangered;
+    display: flex
  }
 
  div.barre-sql
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -446,32 +372,30 @@ section.infos article.formation :first-child
     content: '';
     display: block;
     position: absolute;
-    width:  58px;
+    width:  5.5vh;
     height: 20px;
     background:orangered;
  }
-article + h6
- { 
-     margin-bottom: 10px; 
-     margin-top: 40px
- }
+h6
+{
+    margin-top: 5px
+}
  article.cms p 
  { 
-     font-size: 2vh
+     font-size: 1.2vw
  }
  article.cms
  { 
-     margin-left: 125px;
+ 
      display: flex; 
      flex-direction: row; 
-     flex-wrap: nowrap; 
+     flex-wrap: wrap; 
      justify-content: space-between;
-     padding-bottom: 10px; 
      width: 100%
  }
  div.barre-drupal
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -480,7 +404,7 @@ article + h6
     content: '';
     display: block;
     position: absolute;
-    width:  210px;
+    width:  18vh;
     height: 20px;
     background:orangered;
  }
@@ -488,7 +412,7 @@ article + h6
 
  div.barre-wordpress
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -497,29 +421,29 @@ article + h6
     content: '';
     display: block;
     position: absolute;
-    width:  100px;
+    width:  5.5vh;
     height: 20px;
     background:orangered;
  }
  article.design p 
  { 
-     font-size: 2vh
+     font-size: 1.2vw
  }
  article.design
  { 
-     margin-left: 125px;
+ 
      display: flex; 
      flex-direction: row; 
-     flex-wrap: nowrap; 
+     flex-wrap: wrap; 
      align-content: center;
-     padding-bottom: 10px; 
      justify-content: space-between; 
-     width: 100%
+     width: 100%;
+    
  }
 
  div.barre-ps
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -528,13 +452,13 @@ article + h6
     content: '';
     display: block;
     position: absolute;
-    width:  112px;
+    width:  11vh;
     height: 20px;
     background:orangered;
  }
  div.barre-mockups
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -543,29 +467,29 @@ article + h6
     content: '';
     display: block;
     position: absolute;
-    width:  160px;
+    width:  18vh;
     height: 20px;
     background:orangered;
  }
  article.langues p 
  { 
-     font-size: 2vh
+     font-size: 1.2vw
  }
  article.langues
  { 
-     margin-left: 125px;
+   
      display: flex; 
      flex-direction: row; 
-     flex-wrap: nowrap; 
+     flex-wrap: wrap; 
      align-content: center;
     justify-content: space-between;
-     padding-bottom: 10px; 
+     padding-bottom: 5px; 
      width: 100%
  }
 
  div.barre-anglais
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -574,13 +498,13 @@ article + h6
     content: '';
     display: block;
     position: absolute;
-    width:  223px;
+    width:  20vh;
     height: 20px;
     background:orangered;
  }
  div.barre-espagnol
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -589,13 +513,13 @@ article + h6
     content: '';
     display: block;
     position: absolute;
-    width:  112px;
+    width:  15vh;
     height: 20px;
     background:orangered;
  }
  div.barre-italien
  { 
-     width: 233px; 
+     width: 22vh; 
      height: 20px;
      background-color: lightgray; 
  }
@@ -604,7 +528,7 @@ article + h6
     content: '';
     display: block;
     position: absolute;
-    width:  90px;
+    width:  11vh;
     height: 20px;
     background:orangered;
  }

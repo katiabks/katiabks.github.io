@@ -1,0 +1,1285 @@
+@media only screen and (max-width : 480px) 
+{ 
+    header.title 
+    { 
+        height: 100px
+    }
+    header.title h1 
+    { 
+        font-size: 4vw;
+    }
+    
+    main section.titre 
+    { 
+        min-width: 40%; 
+        height: 245vh
+    }
+    main section.titre h3
+    { 
+        font-size: 3vw
+    }
+    main section.titre article.contact 
+    { 
+        padding: 20px
+    }
+    
+    main section.titre article.contact h4
+    { 
+        font-size: 2.5vw
+    }
+    main section.titre article.contact div p 
+    { 
+        font-size: 2.3vw
+    }
+
+    main section.infos 
+    {
+        max-width: 55%; 
+        padding-right: 5px
+    }
+    section.infos header figure 
+    { 
+        min-width: 60px
+    }
+    section.infos header figure i
+    { 
+        padding: 13px
+    }
+    section.infos header figure i.far.fa-lightbulb 
+    { 
+        padding : 13.5px 15px
+    }
+    
+    section.infos header h5
+    {
+        font-size: 2.5vw
+    }
+  
+    section.infos article.formation 
+    { 
+        width: 100%;
+     display: flex; 
+     flex-direction: column; 
+     flex-wrap: nowrap;
+     padding: 0 10px 0 60px
+     
+    }
+    section.infos article.formation :nth-child(even)
+    { 
+        font-size: 2.3vw
+    }
+    section.infos article.formation :nth-child(2) 
+    { 
+        font-size: 2.1vw
+    }
+    section.infos article.formation :nth-child(odd) 
+   { 
+       color: orangered;
+       font-size: 2.1vw
+   }
+   section.infos article.formation :first-child
+    { 
+       font-weight: bold; 
+       color: black;
+       font-size: 2.3vw
+    }
+       div.date
+    { 
+        min-width: 60px; 
+    }
+    div.date p 
+    { 
+        font-size: 2.3vw
+    }
+    div.texte 
+    { 
+        padding-right: 5px
+    }
+    div.texte :first-child
+    {
+        font-size: 2.5vw
+    }
+    div.texte :nth-child(2)
+    {
+        font-size: 2.5vw
+    }
+    div.texte :last-child
+    {
+        font-size: 2.1vw
+    }
+    h6 
+    { 
+        margin: 15px 0 5px 60px; 
+        font-size: 2.4vw
+    }
+    article.dev 
+    { 
+        padding: 0 5px 0 60px
+    }
+    article.dev p 
+    { 
+        font-size: 2.1vw
+    }
+  article.cms 
+  { 
+    padding-left: 60px
+  }
+  article.cms p 
+  { 
+      font-size: 2.1vw
+  }
+  article.design 
+  {
+    padding-left: 60px
+  }
+  article.design p 
+  { 
+      font-size: 2.1vw
+  }
+  article.langues 
+  {
+    padding-left: 60px
+  }
+  article.langues p 
+  {
+      font-size: 2.1vw
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width : 768px) 
+{ 
+    header.title
+    { 
+        height: 95px
+    }
+    header.title h1 
+    { 
+        font-size: 4vw
+    }
+  
+    main section.titre 
+    { 
+        min-width: 35%; 
+        height: 180vh
+    }
+   
+   
+    main section.titre article.contact 
+    { 
+        padding: 40px
+    }
+  
+    main section.titre h3
+    { 
+        font-size: 3vw
+    }
+    main section.titre article.contact h4
+    { 
+        font-size: 2vw
+    }
+    main section.titre article.contact div p 
+    { 
+        font-size: 1.8vw
+    }
+    main section.infos 
+    {
+        max-width: 60%; 
+        padding-right: 15px
+    }
+    section.infos header figure 
+    { 
+        min-width: 60px
+    }
+    section.infos header figure i.far.fa-lightbulb 
+    { 
+        padding : 15.5px 17px
+    }
+section.infos header h5
+{
+    font-size: 2.8vw
+}
+    section.infos article.formation 
+    { 
+    width: 100%;
+     display: flex; 
+     flex-direction: column; 
+     flex-wrap: nowrap;
+     padding-left: 60px
+     
+    }
+    section.infos article.formation :nth-child(even)
+ { 
+     font-size: 2.2vw
+ }
+ section.infos article.formation :nth-child(2) 
+ { 
+     font-size: 2.2vw
+ }
+ section.infos article.formation :nth-child(odd) 
+{ 
+    color: orangered;
+    font-size: 2.2vw
+}
+section.infos article.formation :first-child
+ { 
+    font-weight: bold; 
+    color: black;
+    font-size: 2.2vw
+ }
+    
+   
+    div.date
+    { 
+        min-width: 60px
+    }
+    div.date p 
+    { 
+        font-size: 2.3vw
+    }
+    div.texte :first-child
+    {
+        font-size: 2.2vw
+    }
+    div.texte :nth-child(2)
+    {
+        font-size: 2.2vw
+    }
+    div.texte :last-child
+    {
+        font-size: 2vw
+    }
+
+    h6 
+    { 
+        font-size: 2vw; 
+        margin: 10px 0 0 60px
+    }
+    header + h6 
+    { 
+        margin-top: 2px
+    }
+    article.dev 
+    { 
+        padding: 0 5px 0 60px
+    }
+    article.dev p 
+    {
+        font-size: 1.8vw
+    }
+  article.cms 
+  { 
+    padding-left: 60px
+  }
+  article.cms p 
+    {
+        font-size: 1.8vw
+    }
+  article.design 
+  {
+    padding-left: 60px
+  }
+  article.design p 
+    {
+        font-size: 1.8vw
+    }
+  article.langues 
+  {
+    padding-left: 60px
+  }
+  article.langues p 
+    {
+        font-size: 1.8vw
+    }
+
+}
+
+@media only screen and (min-width : 769px) and (max-width : 950px){
+    header.title
+    { 
+        height: 150px
+    }
+    header.title h1 
+    { 
+        font-size: 4vw
+    }
+  
+    main section.titre 
+    { 
+        min-width: 35%; 
+        height: 195vh
+    }
+   
+   
+    main section.titre article.contact 
+    { 
+        padding: 60px; 
+        height: 150vh; 
+        justify-content: space-around
+    }
+  
+    main section.titre h3
+    { 
+        font-size: 3vw
+    }
+    main section.titre article.contact h4
+    { 
+        font-size: 2vw
+    }
+    main section.titre article.contact div p 
+    { 
+        font-size: 1.8vw
+    }
+    main section.infos 
+    {
+        max-width: 60%; 
+        padding-right: 15px
+    }
+    section.infos header figure 
+    { 
+        min-width: 100px
+    }
+    section.infos header figure i
+    { 
+       font-size: 4vw
+    }
+    section.infos header figure i.far.fa-lightbulb 
+    { 
+        padding : 20px 25px
+    }
+section.infos header h5
+{
+    font-size: 2.5vw
+}
+    section.infos article.formation 
+    { 
+    width: 100%;
+     display: flex; 
+     flex-direction: column; 
+     flex-wrap: nowrap;
+     padding-left: 100px
+     
+    }
+    section.infos article.formation :nth-child(even)
+ { 
+     font-size: 2vw
+ }
+ section.infos article.formation :nth-child(2) 
+ { 
+     font-size: 2vw
+ }
+ section.infos article.formation :nth-child(odd) 
+{ 
+    color: orangered;
+    font-size: 2vw
+}
+section.infos article.formation :first-child
+ { 
+    font-weight: bold; 
+    color: black;
+    font-size: 2vw
+ }
+    
+   
+    div.date
+    { 
+        min-width: 100px
+    }
+    div.date p 
+    { 
+        font-size: 2.5vw
+    }
+    div.texte :first-child
+    {
+        font-size: 2vw
+    }
+    div.texte :nth-child(2)
+    {
+        font-size: 2vw
+    }
+    div.texte :last-child
+    {
+        font-size: 1.8vw
+    }
+
+    h6 
+    { 
+        font-size: 2vw; 
+        margin: 20px 0 0 100px
+    }
+    header + h6 
+    { 
+        margin-top: 2px
+    }
+    article.dev 
+    { 
+        padding: 0 5px 0 100px
+    }
+    article.dev p 
+    {
+        font-size: 1.8vw
+    }
+  article.cms 
+  { 
+    padding-left: 100px
+  }
+  article.cms p 
+    {
+        font-size: 1.8vw
+    }
+  article.design 
+  {
+    padding-left: 100px
+  }
+  article.design p 
+    {
+        font-size: 1.8vw
+    }
+  article.langues 
+  {
+    padding-left: 100px
+  }
+  article.langues p 
+    {
+        font-size: 1.8vw
+    }
+}
+
+@media only screen and (min-width : 951px) and  (max-width :1350px) {
+    header.title 
+    {
+        height: 200px
+    }
+    main section.titre 
+    { 
+        height: 180vh
+    }
+    main section.titre article.contact 
+    { 
+        padding: 50px; 
+        justify-content: space-around; 
+        height: 125vh
+    }
+  
+    main section.infos 
+    {
+        padding-right: 20px
+    }
+    section.infos header figure 
+    { 
+        min-width: 100px
+    }
+    section.infos header figure i.far.fa-lightbulb 
+    { 
+        padding : 13px 20px
+    }
+    section.infos article.formation 
+    { 
+    width: 100%;
+     display: flex; 
+     flex-direction: column; 
+     flex-wrap: nowrap;
+     padding-left: 100px
+    }
+    
+    div.date
+    { 
+        min-width: 100px
+    }
+    div.texte 
+    { 
+        margin-bottom: 5px
+    }
+    h6 
+    { 
+        margin-left: 100px
+    }
+    
+    article.dev 
+    { 
+        padding: 0 5px 0 100px
+    }
+    
+  article.cms 
+  { 
+    padding-left: 100px
+  }
+  article.design 
+  {
+    padding-left: 100px
+  }
+  article.langues 
+  {
+    padding-left: 100px
+  }
+  div.barre-html
+ { 
+     width: 30vh; 
+    
+ }
+ div.barre-html:before 
+ { 
+    
+    width: 26vh;
+   
+ }
+ div.barre-css
+ { 
+     width: 30vh; 
+
+ }
+ div.barre-css:before 
+ { 
+    width: 19vh;
+    
+ }
+
+ div.barre-JS
+ { 
+     width: 30vh; 
+     
+ }
+ div.barre-JS:before 
+ { 
+    width:  13.5vh;
+
+ }
+ div.barre-ajax
+ { 
+     width: 30vh; 
+     
+ }
+ div.barre-ajax:before 
+ { 
+   
+    width:  13.5vh;
+    
+ }
+
+ div.barre-angular
+ { 
+     width: 30vh; 
+     
+ }
+ div.barre-angular:before 
+ { 
+    
+    width:  13.5vh;
+    
+ }
+
+ div.barre-php
+ { 
+     width: 30vh; 
+ }
+     
+ div.barre-php:before 
+ { 
+    
+    width:  13.5vh;
+    
+ }
+
+ div.barre-sql
+ { 
+     width: 30vh; 
+     
+ }
+ div.barre-sql:before 
+ { 
+    width:  13.5vh;
+
+ }
+
+ article.cms p 
+ { 
+     font-size: 1.2vw
+ }
+ 
+ div.barre-drupal
+ { 
+     width: 30vh; 
+     
+ }
+ div.barre-drupal:before 
+ { 
+    
+    width:  26vh;
+    
+ }
+
+
+ div.barre-wordpress
+ { 
+     width: 30vh; 
+     
+ }
+ div.barre-wordpress:before 
+ { 
+    width:  13.5vh;
+    
+ }
+ article.design p 
+ { 
+     font-size: 1.2vw
+ }
+
+
+ div.barre-ps
+ { 
+     width: 30vh; 
+     
+ }
+ div.barre-ps:before 
+ { 
+    width:  13.5vh;
+    
+ }
+ div.barre-mockups
+ { 
+     width: 30vh; 
+    
+ }
+ div.barre-mockups:before 
+ { 
+
+    width:  26vh;
+    
+ }
+ article.langues p 
+ { 
+     font-size: 1.2vw
+ }
+
+
+ div.barre-anglais
+ { 
+     width: 30vh; 
+ }
+ div.barre-anglais:before 
+ { 
+    
+    width:  28vh;
+    
+ }
+ div.barre-espagnol
+ { 
+     width: 30vh; 
+     
+ }
+ div.barre-espagnol:before 
+ { 
+    
+    width:  23vh;
+   
+ }
+ div.barre-italien
+ { 
+     width: 30vh; 
+    
+ }
+ div.barre-italien:before 
+ { 
+    
+    width:  19vh;
+   
+ }
+
+  
+}
+@media only screen and (min-width : 1351px) and  (max-width :1824px) {
+    
+    header.title 
+    { 
+        height: 250px
+    }
+    
+    main section.titre 
+    { 
+        height: 215vh
+    }
+    main section.titre article.contact 
+    { 
+        padding: 75px; 
+        height: 150vh;
+        justify-content: space-around
+    }
+  
+    main section.infos 
+    {
+        padding-right: 15px
+    }
+    section.infos header figure 
+    { 
+        min-width: 150px
+    }
+    section.infos header figure i.far.fa-lightbulb 
+    { 
+        padding : 13px 20px
+    }
+    section.infos header h5 
+    { 
+        font-size: 1.8vw
+    }
+    section.infos article.formation 
+    { 
+    width: 100%;
+     display: flex; 
+     flex-direction: column; 
+     flex-wrap: nowrap;
+     padding-left: 150px
+    }
+    
+    div.date
+    { 
+        min-width: 150px
+    }
+    div.texte 
+    { 
+        margin-bottom: 15px
+    }
+    h6 
+    { 
+        margin: 10px 0 15px 150px
+    }
+    
+    article.dev 
+    { 
+        padding: 0 5px 0 150px
+    }
+    
+  article.cms 
+  { 
+    padding-left: 150px
+  }
+  article.design 
+  {
+    padding-left: 150px
+  }
+  article.langues 
+  {
+    padding-left: 150px
+  }
+div.barre-html
+ { 
+     width: 50vh; 
+     height: 50px
+ }
+ div.barre-html:before 
+ { 
+    
+    width: 46vh;
+    height: 50px
+   
+ }
+ div.barre-css
+ { 
+     width: 50vh; 
+     height: 50px
+
+ }
+ div.barre-css:before 
+ { 
+    width: 39vh;
+    height: 50px
+    
+ }
+
+ div.barre-JS
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-JS:before 
+ { 
+    width:  33.5vh;
+    height: 50px
+
+ }
+ div.barre-ajax
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-ajax:before 
+ { 
+   
+    width:  33.5vh;
+    height: 50px
+    
+ }
+
+ div.barre-angular
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-angular:before 
+ { 
+    
+    width:  33.5vh;
+    height: 50px
+    
+ }
+
+ div.barre-php
+ { 
+     width: 50vh; 
+     height: 50px
+ }
+     
+ div.barre-php:before 
+ { 
+    
+    width:  33.5vh;
+    height: 50px
+    
+ }
+
+ div.barre-sql
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-sql:before 
+ { 
+    width:  33.5vh;
+    height: 50px
+
+ }
+
+ article.cms p 
+ { 
+     font-size: 1.2vw;
+    
+ }
+ 
+ div.barre-drupal
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-drupal:before 
+ { 
+    
+    width:  46vh;
+    height: 50px
+    
+ }
+
+
+ div.barre-wordpress
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-wordpress:before 
+ { 
+    width:  33.5vh;
+    height: 50px
+    
+ }
+ article.design p 
+ { 
+     font-size: 1.2vw
+ }
+
+
+ div.barre-ps
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-ps:before 
+ { 
+    width:  33.5vh;
+    height: 50px
+    
+ }
+ div.barre-mockups
+ { 
+     width: 50vh; 
+     height: 50px
+    
+ }
+ div.barre-mockups:before 
+ { 
+
+    width:  46vh;
+    height: 50px
+    
+ }
+ article.langues p 
+ { 
+     font-size: 1.2vw
+ }
+
+
+ div.barre-anglais
+ { 
+     width: 50vh; 
+     height: 50px
+ }
+ div.barre-anglais:before 
+ { 
+    
+    width:  48vh;
+    height: 50px
+    
+ }
+ div.barre-espagnol
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-espagnol:before 
+ { 
+    
+    width:  43vh;
+    height: 50px
+   
+ }
+ div.barre-italien
+ { 
+     width: 50vh; 
+     height: 50px
+    
+ }
+ div.barre-italien:before 
+ { 
+    
+    width:  39vh;
+    height: 50px
+   
+ }
+
+  
+}
+@media only screen and (min-width : 1825px)  
+{
+    header.title 
+    { 
+        height: 300px
+    }
+    
+    main section.titre 
+    { 
+        height: 230vh
+    }
+    main section.titre article.contact 
+    { 
+        padding: 100px; 
+        height: 130vh;
+        justify-content: space-around
+    }
+  
+    main section.infos 
+    {
+        padding-right: 20px; 
+        margin-top: 50px
+    }
+    section.infos header figure 
+    { 
+        min-width: 200px
+    }
+    section.infos header figure i
+    {
+        font-size: 4vw; 
+        padding: 30px; 
+        border-radius: 50%
+
+    }
+    section.infos header figure i.far.fa-lightbulb 
+    { 
+        padding : 30px 45px
+    }
+    section.infos header h5 
+    { 
+        font-size: 2.3vw
+    }
+    section.infos article.formation 
+    { 
+    width: 100%;
+     display: flex; 
+     flex-direction: column; 
+     flex-wrap: nowrap;
+     padding-left: 200px; 
+    }
+    section.infos article.formation :nth-child(even)
+    { 
+        font-weight: bold; 
+        font-size: 1.5vw
+    }
+    section.infos article.formation :nth-child(2) 
+    { 
+        color: orangered; 
+        font-weight: 300;
+        font-size: 1.3vw
+    }
+    section.infos article.formation :nth-child(odd) 
+   { 
+       color: orangered;
+       font-size: 1.3vw
+   }
+   section.infos article.formation :first-child
+    { 
+       font-weight: bold; 
+       color: black;
+       font-size: 1.5vw
+    }
+    div.date
+    { 
+        min-width: 200px; 
+        font-size: 2vw
+    }
+    div.texte 
+    { 
+        margin-bottom: 15px; 
+        
+
+    }
+    div.texte :first-child
+    {
+        font-size: 1.5vw
+    }
+    div.texte :nth-child(2)
+    {
+        font-size: 1.35vw
+    }
+    div.texte :last-child
+    {
+        font-size: 1.3vw
+    }
+    h6 
+    { 
+        margin: 30px 0 15px 200px
+    }
+    
+    article.dev 
+    { 
+        padding: 0 5px 0 200px; 
+        flex-wrap: nowrap
+    }
+    
+  article.cms 
+  { 
+    padding-left: 200px; 
+    flex-wrap: nowrap
+  }
+  article.design 
+  {
+    padding-left: 200px;
+    flex-wrap: nowrap
+  }
+  article.langues 
+  {
+    padding-left: 200px;
+  }
+div.barre-html
+ { 
+     width: 50vh; 
+     height: 50px
+ }
+ div.barre-html:before 
+ { 
+    
+    width: 26vh;
+    height: 50px
+   
+ }
+ div.barre-css
+ { 
+     width: 50vh; 
+     height: 50px
+
+ }
+ div.barre-css:before 
+ { 
+    width: 39vh;
+    height: 50px
+    
+ }
+
+ div.barre-JS
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-JS:before 
+ { 
+    width:  33.5vh;
+    height: 50px
+
+ }
+ div.barre-ajax
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-ajax:before 
+ { 
+   
+    width:  33.5vh;
+    height: 50px
+    
+ }
+
+ div.barre-angular
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-angular:before 
+ { 
+    
+    width:  33.5vh;
+    height: 50px
+    
+ }
+
+ div.barre-php
+ { 
+     width: 50vh; 
+     height: 50px
+ }
+     
+ div.barre-php:before 
+ { 
+    
+    width:  33.5vh;
+    height: 50px
+    
+ }
+
+ div.barre-sql
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-sql:before 
+ { 
+    width:  33.5vh;
+    height: 50px
+
+ }
+
+ article.cms p 
+ { 
+     font-size: 1.2vw;
+    
+ }
+ 
+ div.barre-drupal
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-drupal:before 
+ { 
+    
+    width:  46vh;
+    height: 50px
+    
+ }
+
+
+ div.barre-wordpress
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-wordpress:before 
+ { 
+    width:  33.5vh;
+    height: 50px
+    
+ }
+ article.design p 
+ { 
+     font-size: 1.2vw
+ }
+
+
+ div.barre-ps
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-ps:before 
+ { 
+    width:  33.5vh;
+    height: 50px
+    
+ }
+ div.barre-mockups
+ { 
+     width: 50vh; 
+     height: 50px
+    
+ }
+ div.barre-mockups:before 
+ { 
+
+    width:  46vh;
+    height: 50px
+    
+ }
+ article.langues p 
+ { 
+     font-size: 1.2vw
+ }
+
+
+ div.barre-anglais
+ { 
+     width: 50vh; 
+     height: 50px
+ }
+ div.barre-anglais:before 
+ { 
+    
+    width:  48vh;
+    height: 50px
+    
+ }
+ div.barre-espagnol
+ { 
+     width: 50vh; 
+     height: 50px
+     
+ }
+ div.barre-espagnol:before 
+ { 
+    
+    width:  43vh;
+    height: 50px
+   
+ }
+ div.barre-italien
+ { 
+     width: 50vh; 
+     height: 50px
+    
+ }
+ div.barre-italien:before 
+ { 
+    
+    width:  39vh;
+    height: 50px
+   
+ }
+}
