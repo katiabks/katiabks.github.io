@@ -1132,12 +1132,12 @@ section.infos article.formation :first-child
     
     header.title 
     { 
-        height: 250px
+        height: 200px
     }
     
     main section.titre 
     { 
-        height: 190vh
+        height: 200vh
     }
     main section.titre article.contact 
     { 
