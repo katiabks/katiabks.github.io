@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (max-width : 480px) 
 {
     header.title div.nom 
@@ -114,3 +115,121 @@
     }
 }
 
+=======
+@media only screen and (max-width : 480px) 
+{
+    header.title div.nom 
+    {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        height: 100%
+    }
+
+    h1, 
+    h2, 
+    h5
+    {
+        text-align: center;
+        padding: 30px 0 0 0
+    }
+    article.moi p 
+    { 
+        text-align: center
+    }
+
+    section.education article div.texte, 
+    section.experience article div.texte
+    { 
+        border: solid 1px #BBF2E8;
+        width: 100%; 
+        height: 150px;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        
+        position: unset; 
+        background-color: white;
+        z-index: 2
+    }
+
+    section.presentation article.resume 
+    { 
+        background-color: #BBF2E8;
+        background-image: none; 
+        height: auto; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-between;
+        margin-bottom: 20px
+    }
+
+    section.presentation article.resume div figure img
+    { 
+        width: 75px; 
+        height: 75px
+    }
+
+    section.presentation article.resume div p 
+    { 
+        font-size: 15px; 
+        padding-bottom: 20px
+    }
+
+        section.education article, 
+        section.experience article
+        { 
+            display: flex; 
+            flex-direction: column-reverse;
+            margin: 20px 0
+        }
+        section article div.date 
+        {
+            height: 100px
+        }
+    
+
+        section.education article.doranco::before,
+        section.experience article.lvmh::before
+        { 
+            content: "";
+            position: absolute;
+            top: 76px;
+            margin: auto;
+            left: 50%;
+            bottom: 20px;
+            width: 5px;
+            background-color: #BBF2E8; 
+            z-index: 1;
+            margin-top: 75px; 
+        }
+
+        section.experience article:nth-child(3)
+        { 
+            padding-top: 0
+        }
+} 
+
+@media only screen and (min-width: 768px) and (max-width : 1024px) 
+{ 
+    section article:nth-of-type(2n+1) div.texte
+    {
+        width: 300px;
+        position: absolute; 
+        left: 20px; 
+    }
+    
+    section article:nth-of-type(2n) div.texte
+    {
+        width: 300px;
+        position: absolute; 
+        right: 20px; 
+    }  
+
+    section.experience article.I2H div.texte 
+    { 
+        height: 175px
+    }
+}
+
+>>>>>>> c14e7c4520347623d9124c5788292452a5e7e597
