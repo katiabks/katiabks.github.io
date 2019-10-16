@@ -95,7 +95,7 @@ section.presentation article.resume
     margin: 0; 
     padding: 0; 
     width: 100%;
-    background-image: url("../img/background.png"); 
+    background-image: url("../img/background.jpg"); 
     background-attachment: fixed;
     height: 500px; 
     display: flex; 
